@@ -33,9 +33,15 @@ if(cart.length === 0){
    let i = 0;
    
    for( i;i < cart.length-1;i++){
+<<<<<<< HEAD
      startingString += `${cart[i].itemName} at $${cart[i].itemPrice}, `;
    }
 startingString += `and ${cart[i].itemName} at $${cart[i].itemPrice}.`;
+=======
+     startingString += `${cart[i].itemName} at $${cart[i].itemPrice} `;
+   }
+startingString += `,and ${cart[i].itemName} at $${cart[i].itemPrice}.`;
+>>>>>>> 5554e11a7d5cb5bc8734c0eeab735344e15c8cf1
 return startingString;
 }
 }
